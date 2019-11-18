@@ -1,7 +1,7 @@
 {
   "name": "@vue/eslint-config-standard",
   "version": "4.0.0",
-  "description": "eslint-config-standard for vue-cli",
+  "description": "eslint-config-standard for Vue CLI",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
