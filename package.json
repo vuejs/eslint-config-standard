@@ -8,8 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/vue-cli.git",
-    "directory": "packages/@vue/eslint-config-standard"
+    "url": "git+https://github.com/vuejs/eslint-config-standard.git"
   },
   "keywords": [
     "vue",
@@ -18,9 +17,9 @@
   "author": "Evan You",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vuejs/vue-cli/issues"
+    "url": "https://github.com/vuejs/eslint-config-standard/issues"
   },
-  "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/eslint-config-standard#readme",
+  "homepage": "https://github.com/vuejs/eslint-config-standard#readme",
   "dependencies": {
     "eslint-config-standard": "^14.1.0"
   },
