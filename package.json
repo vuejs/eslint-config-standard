@@ -21,9 +21,12 @@
   },
   "homepage": "https://github.com/vuejs/eslint-config-standard#readme",
   "dependencies": {
-    "eslint-config-standard": "^14.1.0"
+    "eslint-config-standard": "^14.1.0",
+    "eslint-import-resolver-node": "^0.3.3",
+    "eslint-import-resolver-webpack": "^0.12.1"
   },
   "peerDependencies": {
+    "@vue/cli-service": "^3.0.0 || ^4.0.0-0",
     "eslint": ">=6.2.2",
     "eslint-plugin-import": ">= 2.18.0",
     "eslint-plugin-node": ">= 9.1.0",
