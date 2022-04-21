@@ -9,7 +9,10 @@ try {
     config: require.resolve('@vue/cli-service/webpack.config.js'),
   }
 } catch (e) {}
-
+try {
+  resolver[require.resolve('eslint-import-resolver-vite-ts')] = {
+  }
+} catch (e) {}
 module.exports = {
   extends: [
     require.resolve('eslint-config-standard')

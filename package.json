@@ -23,6 +23,7 @@
   "dependencies": {
     "eslint-config-standard": "^16.0.3",
     "eslint-import-resolver-node": "^0.3.4",
+    "eslint-import-resolver-vite-ts": "^1.1.1",
     "eslint-import-resolver-webpack": "^0.13.1"
   },
   "peerDependencies": {
