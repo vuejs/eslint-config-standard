@@ -1,41 +1,6 @@
 {
-  "name": "@vue/eslint-config-standard",
-  "version": "7.0.0",
-  "description": "eslint-config-standard for Vue CLI",
-  "main": "index.js",
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vuejs/eslint-config-standard.git"
-  },
-  "keywords": [
-    "vue",
-    "cli"
-  ],
-  "author": "Evan You",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/vuejs/eslint-config-standard/issues"
-  },
-  "homepage": "https://github.com/vuejs/eslint-config-standard#readme",
-  "dependencies": {
-    "eslint-config-standard": "^17.0.0",
-    "eslint-import-resolver-node": "^0.3.6",
-    "eslint-import-resolver-webpack": "^0.13.2"
-  },
-  "peerDependencies": {
-    "@vue/cli-service": "^3.0.0 || ^4.0.0 || ^5.0.0",
-    "eslint": "^8.0.1",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-n": "^15.0.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-vue": "^8.7.1"
-  },
-  "peerDependenciesMeta": {
-    "@vue/cli-service": {
-      "optional": true
-    }
+  "private": true,
+  "devDependencies": {
+    "bumpp": "^8.2.1"
   }
 }
