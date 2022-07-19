@@ -3,12 +3,7 @@ const resolver = {
   [require.resolve('eslint-import-resolver-node')]: {},
 }
 
-// in case the project does not depend on @vue/cli-service
-try {
-  resolver[require.resolve('eslint-import-resolver-webpack')] = {
-    config: require.resolve('@vue/cli-service/webpack.config.js'),
-  }
-} catch (e) {}
+// TODO: API for custom aliases
 
 module.exports = {
   extends: [
