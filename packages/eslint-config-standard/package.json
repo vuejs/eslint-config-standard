@@ -1,14 +1,15 @@
 {
   "name": "@vue/eslint-config-standard",
   "version": "7.0.0",
-  "description": "eslint-config-standard for Vue CLI",
+  "description": "eslint-config-standard for Vue.js projects",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/eslint-config-standard.git"
+    "url": "git+https://github.com/vuejs/eslint-config-standard.git",
+    "directory": "packages/eslint-config-standard"
   },
   "keywords": [
     "vue",
@@ -20,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/vuejs/eslint-config-standard/issues"
   },
-  "homepage": "https://github.com/vuejs/eslint-config-standard#readme",
+  "homepage": "https://github.com/vuejs/eslint-config-standard/blob/main/packages/eslint-config-standard#readme",
   "dependencies": {
     "eslint-config-standard": "^17.0.0",
     "eslint-import-resolver-custom-alias": "^1.3.0",
