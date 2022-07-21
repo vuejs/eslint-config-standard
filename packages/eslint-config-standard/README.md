@@ -23,7 +23,6 @@ npm add --dev @vue/eslint-config-standard @rushstack/eslint-patch
 An example `.eslintrc.cjs`:
 
 ```js
-/* eslint-env node */
 require("@rushstack/eslint-patch/modern-module-resolution")
 
 module.exports = {
@@ -45,7 +44,6 @@ In that case, we provided a helper function to simplify the task.
 For example, it is a widely accepted convention to use `@` as an alias to the `src` folder in the Vue ecosystem. To enable this, you can use the following config:
 
 ```js
-/* eslint-env node */
 require('@rushstack/eslint-patch/modern-module-resolution')
 
 const path = require('node:path')
