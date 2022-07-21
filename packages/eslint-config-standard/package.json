@@ -2,7 +2,12 @@
   "name": "@vue/eslint-config-standard",
   "version": "7.0.0",
   "description": "eslint-config-standard for Vue.js projects",
-  "main": "index.js",
+  "main": "index.cjs",
+  "exports": {
+    ".": "./index.cjs",
+    "./createAliasSetting": "./createAliasSetting.cjs",
+    "./package.json": "./package.json"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -29,9 +34,12 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-vue": "^8.7.1"
+    "eslint-plugin-vue": "^9.2.0"
   },
   "peerDependencies": {
+    "eslint": "^8.0.1"
+  },
+  "devDependencies": {
     "eslint": "^8.0.1"
   }
 }
