@@ -27,6 +27,7 @@ An example `.eslintrc.cjs`:
 require("@rushstack/eslint-patch/modern-module-resolution")
 
 module.exports = {
+  root: true,
   extends: [
     'plugin:vue/vue3-essential',
     '@vue/eslint-config-standard'
@@ -36,4 +37,35 @@ module.exports = {
 
 ## Aliases
 
-As
+By default, none of the built-in rules require you to configure aliases in ESLint.
+
+But if you want to enable some additional rules that need to actually resolve the imported module on the filesystem (e.g. [`import/no-unresolved`](https://github.com/import-js/eslint-plugin-import/blob/v2.26.0/docs/rules/no-unresolved.md)) by yourself, you should configure it.
+In that case, we provided a helper function to simplify the task.
+
+For example, it is a widely accepted convention to use `@` as an alias to the `src` folder in the Vue ecosystem. To enable this, you can use the following config:
+
+```js
+/* eslint-env node */
+require('@rushstack/eslint-patch/modern-module-resolution')
+
+const path = require('node:path')
+const createAliasSetting = require('@vue/eslint-config-standard/createAliasSetting')
+
+module.exports = {
+  root: true,
+  extends: [
+    'plugin:vue/vue3-essential',
+    '@vue/eslint-config-standard'
+  ],
+  rules: {
+    'import/no-unresolved': 'error'
+  }
+  settings: {
+    ...createAliasSetting({
+      '@': `${path.resolve(__dirname, './src')}`
+    })
+  }
+}
+```
+
+`createAliasSetting` accepts a map of aliases and their corresponding paths, and returns a settings object to be spread in to the `settings` field of the ESLint config.
