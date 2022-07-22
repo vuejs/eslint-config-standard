@@ -53,7 +53,13 @@ module.exports = defineConfig({
         '@typescript-eslint/no-unnecessary-type-assertion': 'off',
         '@typescript-eslint/prefer-includes': 'off',
         '@typescript-eslint/prefer-nullish-coalescing': 'off',
+
+        // This rule seems different:
+        // it does not require type information, but as its source code requires the parserService,
+        // it seems to be encountering undefined behavior in `.vue` files
+        // <https://github.com/typescript-eslint/typescript-eslint/issues/4755#issuecomment-1080961338>
         '@typescript-eslint/prefer-optional-chain': 'off',
+
         '@typescript-eslint/prefer-readonly': 'off',
         '@typescript-eslint/prefer-reduce-type-parameter': 'off',
         '@typescript-eslint/promise-function-async': 'off',
