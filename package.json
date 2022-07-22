@@ -1,6 +1,6 @@
 {
   "private": true,
   "devDependencies": {
-    "bumpp": "^8.2.1"
+    "@changesets/cli": "^2.23.2"
   }
 }
