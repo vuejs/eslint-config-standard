@@ -6,7 +6,7 @@
 
 This repo contains 2 packages:
 
-- If you are using ESLint in a JavaScript-only project, check the documentation of [`@vue/eslint-config-standard`](./packages/eslint-config-standard/)
-- If you are using ESLint in a TypeScript project, check the documentation of [`@vue/eslint-config-standard-with-typescript`](./packages/eslint-config-standard-with-typescript/)
+- If you are using ESLint in a JavaScript-only project, check the documentation of [`@vue/eslint-config-standard`](./packages/eslint-config-standard#readme)
+- If you are using ESLint in a TypeScript project, check the documentation of [`@vue/eslint-config-standard-with-typescript`](./packages/eslint-config-standard-with-typescript#readme)
 
 The [`examples` folder](./examples/) contains example ESLint configurations in projects created by `create-vue` or `@vue/cli`.
