@@ -1,0 +1,60 @@
+{
+  "name": "@vue/eslint-config-standard-with-typescript",
+  "version": "7.0.0",
+  "description": "eslint-config-standard-with-typescript for Vue.js projects",
+  "main": "index.cjs",
+  "exports": {
+    ".": "./index.cjs",
+    "./allow-js-in-vue": "./allow-js-in-vue.cjs",
+    "./allow-tsx-in-vue": "./allow-tsx-in-vue.cjs",
+    "./allow-jsx-in-vue": "./allow-jsx-in-vue.cjs",
+    "./createAliasSetting": "./createAliasSetting.cjs",
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuejs/eslint-config-standard.git",
+    "directory": "packages/eslint-config-standard-with-typescript"
+  },
+  "keywords": [
+    "vue",
+    "eslint",
+    "standard",
+    "typescript"
+  ],
+  "author": "Haoqun Jiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vuejs/eslint-config-standard/issues"
+  },
+  "homepage": "https://github.com/vuejs/eslint-config-standard/blob/main/packages/eslint-config-standard-with-typescript#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-define-config": "^1.5.1",
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-import-resolver-typescript": "^3.3.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "vue-eslint-parser": "^9.0.3"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-plugin-vue": "^9.2.0",
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "@vue/eslint-config-standard": "workspace:*",
+    "eslint": "^8.20.0",
+    "typescript": "~4.7.4"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "@vue/eslint-config-standard"
+  }
+}
