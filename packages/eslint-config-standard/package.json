@@ -1,6 +1,6 @@
 {
   "name": "@vue/eslint-config-standard",
-  "version": "7.0.0",
+  "version": "8.0.0",
   "description": "eslint-config-standard for Vue.js projects",
   "main": "index.cjs",
   "exports": {
