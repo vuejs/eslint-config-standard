@@ -15,14 +15,5 @@ module.exports = {
       '.js',
       '.jsx'
     ]
-  },
-  rules: {
-    // Cannot omit `.vue` extensions.
-    // This should be enforced all across the Vue.js ecosystem.
-    'import/extensions': [
-      'error', {
-        vue: 'always'
-      }
-    ]
   }
 }
