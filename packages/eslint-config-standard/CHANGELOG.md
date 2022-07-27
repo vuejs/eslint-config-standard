@@ -1,5 +1,11 @@
 # @vue/eslint-config-standard
 
+## 8.0.1
+
+### Patch Changes
+
+- Remove the "import/extensions" rule, fixes #23
+
 ## 8.0.0
 
 ### Major Changes
