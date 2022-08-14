@@ -27,7 +27,7 @@ require("@rushstack/eslint-patch/modern-module-resolution")
 
 module.exports = {
   root: true,
-  extens: [
+  extends: [
     'plugin:vue/vue3-essential',
     '@vue/eslint-config-standard-with-typescript'
   ]
@@ -48,7 +48,7 @@ require("@rushstack/eslint-patch/modern-module-resolution")
 
 module.exports = {
   root: true,
-  extens: [
+  extends: [
     'plugin:vue/vue3-essential',
     '@vue/eslint-config-standard-with-typescript'
     '@vue/eslint-config-standard-with-typescript/allow-js-in-vue'
@@ -110,7 +110,7 @@ const createAliasSetting = require('@vue/eslint-config-standard-with-typescript/
 
 module.exports = {
   root: true,
-  extens: [
+  extends: [
     'plugin:vue/vue3-essential',
     '@vue/eslint-config-standard-with-typescript'
   ],
