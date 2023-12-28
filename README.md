@@ -1,6 +1,6 @@
 # ESLint [Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs) for [JavaScript Standard Style](http://standardjs.com) in [Vue.js](https://vuejs.org/) Projects
 
-[![JavaScript Style Guide - Standard Style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
+[![JavaScript Style Guide - Standard Style](https://raw.githubusercontent.com/standard/standard/master/badge.svg)](http://standardjs.com)
 
 ## Usage
 
