@@ -44,6 +44,15 @@ module.exports = defineConfig({
         '@typescript-eslint/no-throw-literal': 'off',
 
         '@typescript-eslint/naming-convention': 'off',
+        // camelcase is quite permissive that it only disallows underscores in the middle of names.
+        // https://eslint.org/docs/latest/rules/id-match might be a better replacement for this rule,
+        // but I'm not sure if it works well with TypeScript syntax.
+        camelcase: ['error', {
+          allow: ['^UNSAFE_'],
+          properties: 'never',
+          ignoreGlobals: true
+        }],
+
         '@typescript-eslint/no-base-to-string': 'off',
         '@typescript-eslint/no-floating-promises': 'off',
         '@typescript-eslint/no-for-in-array': 'off',
