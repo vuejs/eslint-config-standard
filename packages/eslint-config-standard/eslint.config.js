@@ -7,9 +7,8 @@ export default [
     files: ['**/*.{js,mjs,jsx,vue}']
   },
 
-  // As `vue/*` rules are included, it's a requirement.
-  // TODO: find a better way to handle this.
-  { plugins: { vue: pluginVue } },
+  // As `vue/*` rules are included, it's required to configure the `vue` plugin.
+  ...pluginVue.configs['flat/essential'],
 
   ...standard,
 

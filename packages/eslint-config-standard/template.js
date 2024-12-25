@@ -34,7 +34,9 @@ ruleNamesToReplace.forEach((ruleName) => {
 })
 
 // `plugins: { vue: pluginVue }` isn't configured here,
-// because user should have done it by extending `pluginVue.configs['flat/essential']`.
-// Reconfiguring it here might cause `Cannot redefine plugin` error.
-// TODO: investigate if there's a better way to handle this.
+// Because in `pluginVue.configs['flat/base']`, the `vue` plugin is already defined
+// as a getter.
+// The getter doesn't have object equality with the actual plugin object.
+// Therefore, redefining it here would result in `Cannot redefine plugin` error.
+// So, here we introduced an implicit dependency on `pluginVue.configs['flat/base']`.
 export default { rules }
