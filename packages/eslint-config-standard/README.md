@@ -27,10 +27,10 @@ An example `eslint.config.js`:
 import pluginVue from "eslint-plugin-vue";
 import standard from "@vue/eslint-config-standard";
 
-module.exports = {
+export default [
   ...pluginVue.configs["flat/essential"],
   ...standard,
-}
+]
 ```
 
 ## Aliases

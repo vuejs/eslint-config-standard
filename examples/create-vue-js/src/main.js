@@ -1,4 +1,4 @@
-/* eslint import/no-unresolved: 2 */
+/* eslint import-x/no-unresolved: 2 */
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 

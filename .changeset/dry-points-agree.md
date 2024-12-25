@@ -2,7 +2,7 @@
 "@vue/eslint-config-standard": major
 ---
 
-* Supports ESLint 9, Node.js ^18.18.0 || ^20.9.0 || >=21.1.0, drops support for older versions.
+* Supports ESLint ^9.10, Node.js ^18.18.0 || ^20.9.0 || >=21.1.0, drops support for older versions.
 * Supports ESLint Flat Config, drops support for legacy `.eslintrc*` configuration format.
 * Removed `createAliasSetting` helper function, as we now automatically detects path aliases in `jsconfig.json` and `tsconfig.json` files.
 * Removed examples of Vue CLI project setups.
