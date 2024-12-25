@@ -2,13 +2,11 @@
   "name": "@vue/eslint-config-standard-with-typescript",
   "version": "8.0.0",
   "description": "eslint-config-standard-with-typescript for Vue.js projects",
-  "main": "index.cjs",
+  "type": "module",
+  "main": "index.js",
   "exports": {
-    ".": "./index.cjs",
-    "./allow-js-in-vue": "./allow-js-in-vue.cjs",
-    "./allow-tsx-in-vue": "./allow-tsx-in-vue.cjs",
-    "./allow-jsx-in-vue": "./allow-jsx-in-vue.cjs",
-    "./createAliasSetting": "./createAliasSetting.cjs",
+    ".": "./index.js",
+    "./type-checked": "./type-checked.js",
     "./package.json": "./package.json"
   },
   "publishConfig": {
@@ -33,15 +31,12 @@
   "homepage": "https://github.com/vuejs/eslint-config-standard/blob/main/packages/eslint-config-standard-with-typescript#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^8.18.2",
-    "@typescript-eslint/parser": "^8.18.2",
-    "eslint-define-config": "^2.1.0",
-    "eslint-import-resolver-typescript": "^3.6.3",
-    "eslint-plugin-import-x": "^4.6.1",
-    "eslint-plugin-n": "^17.15.1",
-    "eslint-plugin-promise": "^7.2.1",
-    "vue-eslint-parser": "^9.4.3"
+    "eslint-import-resolver-next": "^0.4.1",
+    "eslint-import-resolver-typescript": "^3.7.0",
+    "eslint-plugin-import-x": "^4.6.1"
   },
   "peerDependencies": {
+    "@vue/eslint-config-typescript": "^14.2.0",
     "eslint": "^9.10.0",
     "eslint-plugin-vue": "^9.28.0",
     "typescript": "*"
@@ -49,10 +44,6 @@
   "devDependencies": {
     "@vue/eslint-config-standard": "workspace:^",
     "eslint": "^9.10.0",
-    "typescript": ">= 5.6.3"
-  },
-  "eslintConfig": {
-    "root": true,
-    "extends": "@vue/eslint-config-standard"
+    "typescript": "~5.6.3"
   }
 }
