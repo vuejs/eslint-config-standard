@@ -1,4 +1,3 @@
-import js from '@eslint/js'
 import pluginVue from 'eslint-plugin-vue'
 import pluginVitest from '@vitest/eslint-plugin'
 
@@ -15,13 +14,11 @@ export default [
     ignores: ['**/dist/**', '**/dist-ssr/**', '**/coverage/**']
   },
 
-  js.configs.recommended,
   ...pluginVue.configs['flat/essential'],
+  ...standard,
 
   {
     ...pluginVitest.configs.recommended,
     files: ['src/**/__tests__/*']
-  },
-
-  ...standard
+  }
 ]
