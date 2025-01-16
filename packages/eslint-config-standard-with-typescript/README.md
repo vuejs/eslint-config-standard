@@ -13,50 +13,50 @@ extended in the same resulting config.
 
 ## Installation
 
-It's recommended to use this package alongside [`@vue/eslint-config-typescript`](https://github.com/vuejs/eslint-config-typescript).
+Please use this package alongside [`@vue/eslint-config-typescript`](https://github.com/vuejs/eslint-config-typescript).
+
+To use `eslint.config.ts` as the configuration file, you also need to install `jiti`.
 
 ```sh
-npm add --dev @vue/eslint-config-standard-with-typescript @vue/eslint-config-typescript
+npm add --dev jiti @vue/eslint-config-typescript @vue/eslint-config-standard-with-typescript
 ```
 
 ## Usage
 
-An example `eslint.config.js`:
+An example `eslint.config.ts`:
 
-```js
-import pluginVue from "eslint-plugin-vue";
+```ts
+import pluginVue from 'eslint-plugin-vue'
 import {
-  defineConfig,
-  createConfig as vueTsESLintConfig,
-} from "@vue/eslint-config-typescript";
-import standard from "@vue/eslint-config-standard-with-typescript";
+  defineConfigWithVueTs,
+  vueTsConfigs,
+} from '@vue/eslint-config-typescript'
+import standard from '@vue/eslint-config-standard-with-typescript'
 
-export default defineConfig(
-  pluginVue.configs["flat/essential"],
-  vueTsESLintConfig({
-    extends: ["recommended", "stylistic"],
-  }),
-  standard
-);
+export default defineConfigWithVueTs(
+  pluginVue.configs['flat/essential'],
+  vueTsConfigs.recommended,
+  vueTsConfigs.stylistic,
+  standard,
+)
 ```
 
-If you need more comprehensive linting rules, including those that require type information, you can use extend from `"@vue/eslint-config-standard-with-typescript/type-checked"`:
+If you need more comprehensive linting rules, including those that require type information, you can use the `recommendedTypeChecked` config:
 
-```js
-import pluginVue from "eslint-plugin-vue";
+```ts
+import pluginVue from 'eslint-plugin-vue'
 import {
-  defineConfig,
-  createConfig as vueTsESLintConfig,
-} from "@vue/eslint-config-typescript";
-import standardTypeChecked from "@vue/eslint-config-standard-with-typescript/type-checked";
+  defineConfigWithVueTs,
+  vueTsConfigs,
+} from '@vue/eslint-config-typescript'
+import { standardTypeChecked } from '@vue/eslint-config-standard-with-typescript'
 
-export default defineConfig(
-  pluginVue.configs["flat/essential"],
-  vueTsESLintConfig({
-    extends: ["recommendedTypeChecked", "stylisticTypeChecked"],
-  }),
+export default defineConfigWithVueTs(
+  pluginVue.configs['flat/essential'],
+  vueTsConfigs.recommendedTypeChecked,
+  vueTsConfigs.stylisticTypeChecked,
   standardTypeChecked
-);
+)
 ```
 
 ## Aliases

@@ -1,8 +1,13 @@
-import standardWithTS from './index.js'
+import baseConfig from './base.js'
 
+/**
+ * @type {import('eslint').Linter.Config[]}
+ */
 export default [
-  ...standardWithTS,
+  ...baseConfig,
+
   {
+    name: '@vue/typescript/standard/type-checked',
     files: ['*.ts', '*.tsx', '*.vue'],
     rules: {
       'dot-notation': 'off',

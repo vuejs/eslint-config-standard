@@ -7,9 +7,8 @@ export default [
     files: ['**/*.{js,mjs,jsx,vue}']
   },
 
-  // As `vue/*` rules are included, it's required to configure the `vue` plugin.
+  // `@vue/eslint-config-standard` requires the vue plugin to be configured.
   ...pluginVue.configs['flat/essential'],
-
   ...standard,
 
   {
