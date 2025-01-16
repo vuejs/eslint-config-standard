@@ -1,9 +1,17 @@
 import pluginVue from 'eslint-plugin-vue'
-import vueTsEslintConfig from '@vue/eslint-config-typescript'
-import standardTypeChecked from '@vue/eslint-config-standard-with-typescript/type-checked'
+import {
+  defineConfigWithVueTs,
+  vueTsConfigs,
+  configureVueProject
+} from '@vue/eslint-config-typescript'
+import standard from '@vue/eslint-config-standard-with-typescript'
 import pluginVitest from '@vitest/eslint-plugin'
 
-export default [
+configureVueProject({
+  scriptLangs: ['ts', 'tsx']
+})
+
+export default defineConfigWithVueTs(
   {
     name: 'app/files-to-lint',
     files: ['**/*.{ts,mts,tsx,vue}']
@@ -14,14 +22,12 @@ export default [
     ignores: ['**/dist/**', '**/dist-ssr/**', '**/coverage/**']
   },
 
-  ...pluginVue.configs['flat/essential'],
-  ...vueTsEslintConfig({
-    extends: ['recommendedTypeChecked']
-  }),
-  ...standardTypeChecked,
+  pluginVue.configs['flat/essential'],
+  vueTsConfigs.recommended,
+  standard,
 
   {
     ...pluginVitest.configs.recommended,
     files: ['src/**/__tests__/*']
   }
-]
+)
