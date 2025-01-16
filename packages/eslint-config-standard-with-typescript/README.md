@@ -27,10 +27,7 @@ An example `eslint.config.ts`:
 
 ```ts
 import pluginVue from 'eslint-plugin-vue'
-import {
-  defineConfigWithVueTs,
-  vueTsConfigs,
-} from '@vue/eslint-config-typescript'
+import { defineConfigWithVueTs, vueTsConfigs } from '@vue/eslint-config-typescript'
 import standard from '@vue/eslint-config-standard-with-typescript'
 
 export default defineConfigWithVueTs(
@@ -45,10 +42,7 @@ If you need more comprehensive linting rules, including those that require type 
 
 ```ts
 import pluginVue from 'eslint-plugin-vue'
-import {
-  defineConfigWithVueTs,
-  vueTsConfigs,
-} from '@vue/eslint-config-typescript'
+import { defineConfigWithVueTs, vueTsConfigs } from '@vue/eslint-config-typescript'
 import { standardTypeChecked } from '@vue/eslint-config-standard-with-typescript'
 
 export default defineConfigWithVueTs(
