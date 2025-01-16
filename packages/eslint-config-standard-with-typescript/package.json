@@ -42,6 +42,11 @@
     "eslint-plugin-vue": "^9.28.0",
     "typescript": "*"
   },
+  "peerDependenciesMeta": {
+    "@vue/eslint-config-typescript": {
+      "optional": true
+    }
+  },
   "devDependencies": {
     "eslint": "^9.18.0",
     "eslint-plugin-vue": "^9.28.0",
