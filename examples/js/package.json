@@ -1,0 +1,31 @@
+{
+  "name": "js",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest",
+    "lint": "eslint . --fix"
+  },
+  "dependencies": {
+    "pinia": "^2.3.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitejs/plugin-vue-jsx": "^4.1.1",
+    "@vitest/eslint-plugin": "^1.1.25",
+    "@vue/eslint-config-standard": "workspace:^",
+    "@vue/test-utils": "^2.4.6",
+    "eslint": "^9.18.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "jsdom": "^26.0.0",
+    "vite": "^6.0.7",
+    "vite-plugin-vue-devtools": "^7.7.0",
+    "vitest": "^2.1.8"
+  }
+}

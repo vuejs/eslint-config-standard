@@ -2,13 +2,11 @@
   "name": "@vue/eslint-config-standard-with-typescript",
   "version": "8.0.0",
   "description": "eslint-config-standard-with-typescript for Vue.js projects",
-  "main": "index.cjs",
+  "type": "module",
+  "main": "index.js",
   "exports": {
-    ".": "./index.cjs",
-    "./allow-js-in-vue": "./allow-js-in-vue.cjs",
-    "./allow-tsx-in-vue": "./allow-tsx-in-vue.cjs",
-    "./allow-jsx-in-vue": "./allow-jsx-in-vue.cjs",
-    "./createAliasSetting": "./createAliasSetting.cjs",
+    ".": "./index.js",
+    "./type-checked": "./type-checked.js",
     "./package.json": "./package.json"
   },
   "publishConfig": {
@@ -32,29 +30,26 @@
   },
   "homepage": "https://github.com/vuejs/eslint-config-standard/blob/main/packages/eslint-config-standard-with-typescript#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.62.0",
-    "@typescript-eslint/parser": "^5.62.0",
-    "eslint-config-standard-with-typescript": "^22.0.0",
-    "eslint-define-config": "^1.24.1",
-    "eslint-import-resolver-node": "^0.3.9",
-    "eslint-import-resolver-typescript": "^3.6.3",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-n": "^15.7.0",
-    "eslint-plugin-promise": "^6.6.0",
-    "vue-eslint-parser": "^9.4.3"
+    "@vue/eslint-config-standard": "workspace:^",
+    "@typescript-eslint/eslint-plugin": "^8.20.0",
+    "eslint-import-resolver-next": "^0.4.1",
+    "eslint-import-resolver-typescript": "^3.7.0",
+    "eslint-plugin-import-x": "^4.6.1"
   },
   "peerDependencies": {
-    "eslint": "^8.0.1",
-    "eslint-plugin-vue": "^9.2.0",
+    "@vue/eslint-config-typescript": "^14.2.0",
+    "eslint": "^9.10.0",
+    "eslint-plugin-vue": "^9.28.0",
     "typescript": "*"
   },
-  "devDependencies": {
-    "@vue/eslint-config-standard": "workspace:^",
-    "eslint": "^8.57.1",
-    "typescript": "~5.4.5"
+  "peerDependenciesMeta": {
+    "@vue/eslint-config-typescript": {
+      "optional": true
+    }
   },
-  "eslintConfig": {
-    "root": true,
-    "extends": "@vue/eslint-config-standard"
+  "devDependencies": {
+    "eslint": "^9.18.0",
+    "eslint-plugin-vue": "^9.28.0",
+    "typescript": "~5.7.3"
   }
 }
