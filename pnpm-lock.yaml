@@ -617,6 +617,9 @@ importers:
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.20.0
         version: 8.20.0(@typescript-eslint/parser@8.20.0(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3)
+      '@vue/eslint-config-standard':
+        specifier: workspace:^
+        version: link:../eslint-config-standard
       '@vue/eslint-config-typescript':
         specifier: ^14.2.0
         version: 14.3.0(eslint-plugin-vue@9.32.0(eslint@9.18.0(jiti@2.4.2)))(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3)
@@ -629,16 +632,13 @@ importers:
       eslint-plugin-import-x:
         specifier: ^4.6.1
         version: 4.6.1(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3)
-      eslint-plugin-vue:
-        specifier: ^9.28.0
-        version: 9.32.0(eslint@9.18.0(jiti@2.4.2))
     devDependencies:
-      '@vue/eslint-config-standard':
-        specifier: workspace:^
-        version: link:../eslint-config-standard
       eslint:
         specifier: ^9.18.0
         version: 9.18.0(jiti@2.4.2)
+      eslint-plugin-vue:
+        specifier: ^9.32.0
+        version: 9.32.0(eslint@9.18.0(jiti@2.4.2))
       typescript:
         specifier: ~5.7.3
         version: 5.7.3
