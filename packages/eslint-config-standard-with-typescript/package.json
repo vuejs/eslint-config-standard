@@ -31,9 +31,9 @@
   "homepage": "https://github.com/vuejs/eslint-config-standard/blob/main/packages/eslint-config-standard-with-typescript#readme",
   "dependencies": {
     "@vue/eslint-config-standard": "workspace:^",
-    "@typescript-eslint/eslint-plugin": "^8.24.1",
+    "@typescript-eslint/eslint-plugin": "^8.26.1",
     "eslint-import-resolver-next": "^0.4.2",
-    "eslint-import-resolver-typescript": "^3.8.2",
+    "eslint-import-resolver-typescript": "^3.8.4",
     "eslint-plugin-import-x": "^4.6.1"
   },
   "peerDependencies": {
@@ -48,8 +48,8 @@
     }
   },
   "devDependencies": {
-    "eslint": "^9.20.1",
-    "eslint-plugin-vue": "^9.32.0",
+    "eslint": "^9.22.0",
+    "eslint-plugin-vue": "^9.33.0",
     "typescript": "~5.7.3"
   }
 }
