@@ -1,5 +1,16 @@
 # @vue/eslint-config-standard-with-typescript
 
+## 9.1.0
+
+### Minor Changes
+
+- [`ac560b5`](https://github.com/vuejs/eslint-config-standard/commit/ac560b52866adb8cb19a5df8fbe5f71b6ec1ad79) Thanks [@haoqunjiang](https://github.com/haoqunjiang)! - Added type declaration files
+
+### Patch Changes
+
+- Updated dependencies [[`5f38827`](https://github.com/vuejs/eslint-config-standard/commit/5f388277dac615c359a1cb297761e7d0fcc933ce)]:
+  - @vue/eslint-config-standard@9.0.1
+
 ## 9.0.0
 
 ### Major Changes
