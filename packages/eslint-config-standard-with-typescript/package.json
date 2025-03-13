@@ -39,7 +39,7 @@
   "peerDependencies": {
     "@vue/eslint-config-typescript": "^14.2.0",
     "eslint": "^9.10.0",
-    "eslint-plugin-vue": "^9.28.0",
+    "eslint-plugin-vue": "^9.28.0 || ^10.0.0",
     "typescript": "*"
   },
   "peerDependenciesMeta": {
@@ -49,7 +49,7 @@
   },
   "devDependencies": {
     "eslint": "^9.22.0",
-    "eslint-plugin-vue": "^9.33.0",
+    "eslint-plugin-vue": "^10.0.0",
     "typescript": "~5.8.0"
   }
 }
