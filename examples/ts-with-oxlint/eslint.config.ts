@@ -1,8 +1,9 @@
-import pluginVue from 'eslint-plugin-vue'
+import { globalIgnores } from 'eslint/config'
 import { defineConfigWithVueTs, vueTsConfigs } from '@vue/eslint-config-typescript'
+import pluginVue from 'eslint-plugin-vue'
 import standard from '@vue/eslint-config-standard-with-typescript'
 import pluginVitest from '@vitest/eslint-plugin'
-import oxlint from 'eslint-plugin-oxlint'
+import pluginOxlint from 'eslint-plugin-oxlint'
 
 export default defineConfigWithVueTs(
   {
@@ -10,10 +11,7 @@ export default defineConfigWithVueTs(
     files: ['**/*.{ts,mts,tsx,vue}']
   },
 
-  {
-    name: 'app/files-to-ignore',
-    ignores: ['**/dist/**', '**/dist-ssr/**', '**/coverage/**']
-  },
+  globalIgnores(['**/dist/**', '**/dist-ssr/**', '**/coverage/**']),
 
   pluginVue.configs['flat/essential'],
   vueTsConfigs.recommended,
@@ -23,5 +21,5 @@ export default defineConfigWithVueTs(
     ...pluginVitest.configs.recommended,
     files: ['src/**/__tests__/*']
   },
-  oxlint.configs['flat/recommended']
+  pluginOxlint.configs['flat/recommended']
 )

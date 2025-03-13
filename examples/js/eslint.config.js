@@ -1,18 +1,17 @@
+import { defineConfig, globalIgnores } from 'eslint/config'
+
 import pluginVue from 'eslint-plugin-vue'
 import pluginVitest from '@vitest/eslint-plugin'
 
 import standard from '@vue/eslint-config-standard'
 
-export default [
+export default defineConfig([
   {
     name: 'app/files-to-lint',
     files: ['**/*.{js,mjs,jsx,vue}']
   },
 
-  {
-    name: 'app/files-to-ignore',
-    ignores: ['**/dist/**', '**/dist-ssr/**', '**/coverage/**']
-  },
+  globalIgnores(['**/dist/**', '**/dist-ssr/**', '**/coverage/**']),
 
   ...pluginVue.configs['flat/essential'],
   ...standard,
@@ -21,4 +20,4 @@ export default [
     ...pluginVitest.configs.recommended,
     files: ['src/**/__tests__/*']
   }
-]
+])
