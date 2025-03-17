@@ -18,7 +18,6 @@ export default [
         createNodeResolver(),
         createNextImportResolver(),
         createTypeScriptImportResolver({
-          alwaysTryTypes: true,
           project: ['**/tsconfig.json', '**/tsconfig.*.json']
         })
       ]
