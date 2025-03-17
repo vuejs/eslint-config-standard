@@ -17,9 +17,7 @@ export default [
       'import-x/resolver-next': [
         createNodeResolver(),
         createNextImportResolver(),
-        createTypeScriptImportResolver({
-          project: ['**/tsconfig.json', '**/tsconfig.*.json']
-        })
+        createTypeScriptImportResolver()
       ]
     }
   },
