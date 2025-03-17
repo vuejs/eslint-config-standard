@@ -1,5 +1,11 @@
 # @vue/eslint-config-standard-with-typescript
 
+## 9.2.0
+
+### Minor Changes
+
+- [#57](https://github.com/vuejs/eslint-config-standard/pull/57) [`842b17a`](https://github.com/vuejs/eslint-config-standard/commit/842b17a087fbc9c6680bd55bd21f840db7a24fcd) Thanks [@renovate](https://github.com/apps/renovate)! - Update `eslint-import-resolver-typescript` to v4
+
 ## 9.1.0
 
 ### Minor Changes
