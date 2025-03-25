@@ -37,8 +37,8 @@ importers:
         specifier: ^22.13.10
         version: 22.13.10
       '@vitejs/plugin-vue':
-        specifier: ^5.2.2
-        version: 5.2.2(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
+        specifier: ^5.2.3
+        version: 5.2.3(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
       '@vitejs/plugin-vue-jsx':
         specifier: ^4.1.2
         version: 4.1.2(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
@@ -73,7 +73,7 @@ importers:
         specifier: ~5.8.0
         version: 5.8.2
       vite:
-        specifier: ^6.2.2
+        specifier: ^6.2.3
         version: 6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1)
       vite-plugin-vue-devtools:
         specifier: ^7.7.2
@@ -98,8 +98,8 @@ importers:
         version: 4.5.0(vue@3.5.13(typescript@5.8.2))
     devDependencies:
       '@vitejs/plugin-vue':
-        specifier: ^5.2.2
-        version: 5.2.2(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
+        specifier: ^5.2.3
+        version: 5.2.3(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
       '@vitejs/plugin-vue-jsx':
         specifier: ^4.1.2
         version: 4.1.2(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
@@ -122,7 +122,7 @@ importers:
         specifier: ^26.0.0
         version: 26.0.0
       vite:
-        specifier: ^6.2.2
+        specifier: ^6.2.3
         version: 6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1)
       vite-plugin-vue-devtools:
         specifier: ^7.7.2
@@ -153,8 +153,8 @@ importers:
         specifier: ^22.13.10
         version: 22.13.10
       '@vitejs/plugin-vue':
-        specifier: ^5.2.2
-        version: 5.2.2(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
+        specifier: ^5.2.3
+        version: 5.2.3(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
       '@vitejs/plugin-vue-jsx':
         specifier: ^4.1.2
         version: 4.1.2(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
@@ -192,7 +192,7 @@ importers:
         specifier: ~5.8.0
         version: 5.8.2
       vite:
-        specifier: ^6.2.2
+        specifier: ^6.2.3
         version: 6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1)
       vite-plugin-vue-devtools:
         specifier: ^7.7.2
@@ -226,8 +226,8 @@ importers:
         specifier: ^22.13.10
         version: 22.13.10
       '@vitejs/plugin-vue':
-        specifier: ^5.2.2
-        version: 5.2.2(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
+        specifier: ^5.2.3
+        version: 5.2.3(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
       '@vitejs/plugin-vue-jsx':
         specifier: ^4.1.2
         version: 4.1.2(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
@@ -271,7 +271,7 @@ importers:
         specifier: ~5.8.0
         version: 5.8.2
       vite:
-        specifier: ^6.2.2
+        specifier: ^6.2.3
         version: 6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1)
       vite-plugin-vue-devtools:
         specifier: ^7.7.2
@@ -308,8 +308,8 @@ importers:
         specifier: ^22.13.10
         version: 22.13.10
       '@vitejs/plugin-vue':
-        specifier: ^5.2.2
-        version: 5.2.2(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
+        specifier: ^5.2.3
+        version: 5.2.3(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
       '@vitejs/plugin-vue-jsx':
         specifier: ^4.1.2
         version: 4.1.2(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
@@ -350,7 +350,7 @@ importers:
         specifier: ~5.8.0
         version: 5.8.2
       vite:
-        specifier: ^6.2.2
+        specifier: ^6.2.3
         version: 6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1)
       vite-plugin-vue-devtools:
         specifier: ^7.7.2
@@ -384,8 +384,8 @@ importers:
         specifier: ^22.13.10
         version: 22.13.10
       '@vitejs/plugin-vue':
-        specifier: ^5.2.2
-        version: 5.2.2(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
+        specifier: ^5.2.3
+        version: 5.2.3(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
       '@vitejs/plugin-vue-jsx':
         specifier: ^4.1.2
         version: 4.1.2(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
@@ -429,7 +429,7 @@ importers:
         specifier: ~5.8.0
         version: 5.8.2
       vite:
-        specifier: ^6.2.2
+        specifier: ^6.2.3
         version: 6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1)
       vite-plugin-vue-devtools:
         specifier: ^7.7.2
@@ -463,8 +463,8 @@ importers:
         specifier: ^22.13.10
         version: 22.13.10
       '@vitejs/plugin-vue':
-        specifier: ^5.2.2
-        version: 5.2.2(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
+        specifier: ^5.2.3
+        version: 5.2.3(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
       '@vitejs/plugin-vue-jsx':
         specifier: ^4.1.2
         version: 4.1.2(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
@@ -502,7 +502,7 @@ importers:
         specifier: ~5.8.0
         version: 5.8.2
       vite:
-        specifier: ^6.2.2
+        specifier: ^6.2.3
         version: 6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1)
       vite-plugin-vue-devtools:
         specifier: ^7.7.2
@@ -536,8 +536,8 @@ importers:
         specifier: ^22.13.10
         version: 22.13.10
       '@vitejs/plugin-vue':
-        specifier: ^5.2.2
-        version: 5.2.2(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
+        specifier: ^5.2.3
+        version: 5.2.3(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
       '@vitejs/plugin-vue-jsx':
         specifier: ^4.1.2
         version: 4.1.2(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))
@@ -575,7 +575,7 @@ importers:
         specifier: ~5.8.0
         version: 5.8.2
       vite:
-        specifier: ^6.2.2
+        specifier: ^6.2.3
         version: 6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1)
       vite-plugin-vue-devtools:
         specifier: ^7.7.2
@@ -1572,8 +1572,8 @@ packages:
       vite: ^5.0.0 || ^6.0.0
       vue: ^3.0.0
 
-  '@vitejs/plugin-vue@5.2.2':
-    resolution: {integrity: sha512-IY0aPonWZI2huxrWjoSBUQX14GThitmr1sc2OUJymcgnY5RlUI7HoXGAnFEoVNRsck/kS6inGvxCN6CoHu86yQ==}
+  '@vitejs/plugin-vue@5.2.3':
+    resolution: {integrity: sha512-IYSLEQj4LgZZuoVpdSUCw3dIynTWQgPlaRP6iAvMle4My0HdYwr5g5wQAfwOeHQBmYwEkqF70nRpSilr6PoUDg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       vite: ^5.0.0 || ^6.0.0
@@ -4818,7 +4818,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@vitejs/plugin-vue@5.2.2(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))':
+  '@vitejs/plugin-vue@5.2.3(vite@6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1))(vue@3.5.13(typescript@5.8.2))':
     dependencies:
       vite: 6.2.3(@types/node@22.13.10)(jiti@2.4.2)(terser@5.34.1)
       vue: 3.5.13(typescript@5.8.2)
