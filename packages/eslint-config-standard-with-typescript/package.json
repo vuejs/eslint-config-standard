@@ -32,7 +32,7 @@
   "dependencies": {
     "@vue/eslint-config-standard": "workspace:^",
     "@typescript-eslint/eslint-plugin": "^8.26.1",
-    "eslint-import-resolver-next": "^0.4.2",
+    "eslint-import-resolver-next": "^0.4.3",
     "eslint-import-resolver-typescript": "^4.1.1",
     "eslint-plugin-import-x": "^4.8.0"
   },
