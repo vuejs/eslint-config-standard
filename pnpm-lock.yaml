@@ -593,8 +593,8 @@ importers:
         specifier: ^4.2.0
         version: 4.2.0(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2)
       eslint-import-resolver-next:
-        specifier: ^0.4.3
-        version: 0.4.3
+        specifier: ^0.5.0
+        version: 0.5.0
       eslint-plugin-import-x:
         specifier: ^4.9.2
         version: 4.9.2(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2)
@@ -627,8 +627,8 @@ importers:
         specifier: ^14.2.0
         version: 14.5.0(eslint-plugin-vue@10.0.0(eslint@9.23.0(jiti@2.4.2))(vue-eslint-parser@10.1.1(eslint@9.23.0(jiti@2.4.2))))(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2)
       eslint-import-resolver-next:
-        specifier: ^0.4.3
-        version: 0.4.3
+        specifier: ^0.5.0
+        version: 0.5.0
       eslint-import-resolver-typescript:
         specifier: ^4.2.3
         version: 4.2.3(eslint-plugin-import-x@4.9.2(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2))(eslint-plugin-import@2.31.0)(eslint@9.23.0(jiti@2.4.2))
@@ -2173,9 +2173,9 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-import-resolver-next@0.4.3:
-    resolution: {integrity: sha512-9PV5hdtDQyiZuwtWRenbknKSBgYxYC5m8AQW7FbYWkmTmXJn9QkHHNOc9WgFzroyig7Qod5OD+s23WGFA5g8FQ==}
-    engines: {node: '>=14'}
+  eslint-import-resolver-next@0.5.0:
+    resolution: {integrity: sha512-EudNKo7MfvpXJIoVs+woUZHdOUHmH2UZjos9cBKxtvt7/ywVc9+gNch0OzOq+v2rOWRhyVHuphzjppVCc2W1lQ==}
+    engines: {node: '>=14.18.0'}
 
   eslint-import-resolver-node@0.3.9:
     resolution: {integrity: sha512-WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==}
@@ -5649,12 +5649,12 @@ snapshots:
     dependencies:
       eslint: 9.23.0(jiti@2.4.2)
 
-  eslint-import-resolver-next@0.4.3:
+  eslint-import-resolver-next@0.5.0:
     dependencies:
-      fast-glob: 3.3.3
       js-yaml: 4.1.0
       oxc-resolver: 5.0.1
       stable-hash: 0.0.5
+      tinyglobby: 0.2.12
 
   eslint-import-resolver-node@0.3.9:
     dependencies:
