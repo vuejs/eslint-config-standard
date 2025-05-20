@@ -16,8 +16,8 @@
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.3",
-    "@vitejs/plugin-vue-jsx": "^4.1.2",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "@vitejs/plugin-vue-jsx": "^4.2.0",
     "@vitest/eslint-plugin": "^1.1.38",
     "@vue/eslint-config-standard": "workspace:^",
     "@vue/test-utils": "^2.4.6",
@@ -25,7 +25,7 @@
     "eslint-plugin-vue": "^10.0.0",
     "jsdom": "^26.0.0",
     "vite": "^6.2.3",
-    "vite-plugin-vue-devtools": "^7.7.2",
+    "vite-plugin-vue-devtools": "^7.7.6",
     "vitest": "^3.0.9"
   }
 }
