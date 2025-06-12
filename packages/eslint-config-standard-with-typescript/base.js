@@ -1,4 +1,5 @@
 import standard from '@vue/eslint-config-standard'
+// eslint-disable-next-line no-unused-vars
 import tsEslintPlugin from '@typescript-eslint/eslint-plugin'
 
 import { createNextImportResolver } from 'eslint-import-resolver-next'
@@ -24,9 +25,10 @@ export default [
 
   {
     name: '@vue/typescript/standard',
-    files: ['*.ts', '*.tsx', '*.vue'],
+    files: ['**/*.ts', '**/*.tsx', '**/*.vue'],
     plugins: {
-      '@typescript-eslint': tsEslintPlugin
+      // Conflict with the configuration of typescript-eslint/base
+      // '@typescript-eslint': tsEslintPlugin
     },
 
     rules: {

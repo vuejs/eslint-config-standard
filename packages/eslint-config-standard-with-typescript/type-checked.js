@@ -8,7 +8,7 @@ export default [
 
   {
     name: '@vue/typescript/standard/type-checked',
-    files: ['*.ts', '*.tsx', '*.vue'],
+    files: ['**/*.ts', '**/*.tsx', '**/*.vue'],
     rules: {
       'dot-notation': 'off',
       '@typescript-eslint/dot-notation': ['error', { allowKeywords: true }],
