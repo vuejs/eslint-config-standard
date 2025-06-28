@@ -12,20 +12,20 @@
   },
   "dependencies": {
     "pinia": "^3.0.3",
-    "vue": "^3.5.16",
+    "vue": "^3.5.17",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.4",
     "@vitejs/plugin-vue-jsx": "^4.2.0",
-    "@vitest/eslint-plugin": "^1.2.2",
+    "@vitest/eslint-plugin": "^1.3.3",
     "@vue/eslint-config-standard": "workspace:^",
     "@vue/test-utils": "^2.4.6",
-    "eslint": "^9.28.0",
+    "eslint": "^9.30.0",
     "eslint-plugin-vue": "^10.2.0",
     "jsdom": "^26.1.0",
     "vite": "^6.2.3",
     "vite-plugin-vue-devtools": "^7.7.6",
-    "vitest": "^3.2.3"
+    "vitest": "^3.2.4"
   }
 }
