@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/vuejs/eslint-config-standard/blob/main/packages/eslint-config-standard#readme",
   "dependencies": {
-    "@stylistic/eslint-plugin": "^4.4.1",
+    "@stylistic/eslint-plugin": "^5.1.0",
     "eslint-import-resolver-next": "^0.4.3",
     "eslint-plugin-import-x": "^4.15.2",
     "eslint-plugin-n": "^17.19.0",
